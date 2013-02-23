@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.paulkruger.paulsampleapp"
+    version   = "1.0.0">
+
+<name>App</name>
+
+<description>
+App
+</description>
+
+<author href="http://www.univision.com" email="pcarabeo@us.univision.com">
+Pedro Carabeo-Nieva
+</author>
+
+<preference name="phonegap-version" value="2.3.0" />
+<preference name="orientation" value="default" />
+<preference name="fullscreen" value="false" />
+<preference name="auto-hide-splash-screen" value="false" />
+<preference name="show-splash-screen-spinner" value="false" />
+<preference name="webviewbounce" value="false" />
+
+<feature name="http://api.phonegap.com/1.0/camera" />
+<feature name="http://api.phonegap.com/1.0/media" />
+<feature name="http://api.phonegap.com/1.0/file" />
+
+<icon src="icon.png" />
+
+<icon src="icons/ios/icon.png" width="57" height="57" />
+<icon src="icons/ios/icon-72.png" gap:platform="ios" width="72" height="72" />
+<icon src="icons/ios/icon_at_2x.png" width="114" height="114" />
+
+<icon src="icons/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
+<icon src="icons/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
+<icon src="icons/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
+<icon src="icons/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+
+<gap:splash src="splash/ios/Default.png" width="320" height="480" />
+<gap:splash src="splash/ios/Default_at_2x.png" width="640" height="960" />
+<gap:splash src="splash/ios/Default_iphone5.png" width="640" height="1136" />
+<gap:splash src="splash/ios/Default-Landscape.png" width="1024" height="768" />
+<gap:splash src="splash/ios/Default-Portrait.png" width="768" height="1024" />
+
+<gap:splash src="splash/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
+<gap:splash src="splash/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
+<gap:splash src="splash/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
+<gap:splash src="splash/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+
+</widget>
