@@ -4,14 +4,14 @@
     id        = "com.paulkruger.paulsampleapp"
     version   = "1.0.0">
 
-<name>Phone Gap Test</name>
+<name>App</name>
 
 <description>
-Phone Gap Test with Backbone.js
+App
 </description>
 
-<author href="http://www.answeringservicecare.com" email="paul@miamiphp.org">
-Paul Kruger
+<author href="http://www.univision.com" email="pcarabeo@us.univision.com">
+Pedro Carabeo-Nieva
 </author>
 
 <preference name="phonegap-version" value="2.3.0" />
