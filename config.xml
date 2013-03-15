@@ -1,26 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
-    id        = "com.paulkruger.paulsampleapp"
+    id        = "com.answeringservicecare.phonegap_test"
     version   = "1.0.0">
 
-<name>App</name>
+<name>AnsweringServiceCare</name>
 
 <description>
-App
+Answering Service Care
 </description>
 
-<author href="http://www.univision.com" email="pcarabeo@us.univision.com">
-Pedro Carabeo-Nieva
+<author href="http://www.answeringservicecare.com" email="paul@miamiphp.org">
+Paul Kruger
 </author>
 
-<preference name="phonegap-version" value="2.3.0" />
-<preference name="orientation" value="default" />
-<preference name="fullscreen" value="false" />
-<preference name="auto-hide-splash-screen" value="false" />
-<preference name="show-splash-screen-spinner" value="false" />
-<preference name="webviewbounce" value="false" />
-
-
+<feature name="http://api.phonegap.com/1.0/camera" />
+<feature name="http://api.phonegap.com/1.0/media" />
+<feature name="http://api.phonegap.com/1.0/file" />
 
 </widget>
