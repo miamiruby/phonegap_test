@@ -1,3 +1,15 @@
+var Message = Backbone.Model.extend({
+  url : function() {
+    return this.id ? '/api/mobile/v1/messages/' + this.id + '.json?api_key=1234' : '/api/mobile/v1/messages.json?api_key=1234';
+  },
+  content: function(){ return this.get('content'); },
+});
+
+var Messages = Backbone.Collection.extend({
+  model : Message,
+  url : "/api/mobile/v1/messages.json?api_key=1234"
+});
+
 window.HomeView = Backbone.View.extend({
 
     template:_.template($('#home').html()),
